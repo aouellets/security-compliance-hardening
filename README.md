@@ -1,8 +1,8 @@
 # Security & Compliance Hardening
 
-**Threat models, secure reviews, and compliance evidence — ship with confidence.** — built in-house by [Skill&nbsp;Me](https://skillme.dev).
+**AppSec & staff engineers: harden every stage of the SDLC and pass your SOC 2 audit.** — built in-house by [Skill&nbsp;Me](https://skillme.dev).
 
-Six skills covering the full defensive security lifecycle for engineering teams: threat modeling, dependency risk, secrets management, SOC 2 compliance, vulnerability triage, and secure code review. Designed for staff engineers and AppSec practitioners who need structured, opinionated guidance without the noise.
+Reach for this when you own security for an engineering team and need to harden the whole software lifecycle, not just run a scanner. It walks you from design-time threat modeling and supply-chain/dependency risk, through secrets hygiene and security-focused code review, to triaging real exploitable findings out of scanner noise and assembling the evidence that gets you through a SOC 2 audit. Opinionated, senior-level defaults so you ship with confidence and survive the audit without the busywork.
 
 ⭐ **If this is useful, star the repo** — it's how we gauge what to build next.
 
