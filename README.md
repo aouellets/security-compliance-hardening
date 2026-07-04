@@ -14,14 +14,14 @@ Reach for this when you own security for an engineering team and need to harden 
 
 ## Skills in this pack
 
-- **[Threat Model STRIDE](skills/threat-model-stride/SKILL.md)** — Runs a STRIDE threat model on a feature or system, surfaces high-priority threats, and recommends concrete mitigations.
-- **[Dependency Risk Audit](skills/dependency-risk-audit/SKILL.md)** — Assesses third-party dependency risk across CVEs, maintenance health, license exposure, and supply-chain hygiene.
-- **[Secrets Hygiene](skills/secrets-hygiene/SKILL.md)** — Prevents and remediates leaked secrets and credentials in source code, CI, logs, and config.
-- **[SOC 2 Evidence Helper](skills/soc2-evidence-helper/SKILL.md)** — Organizes SOC 2 Type I and Type II evidence collection, maps controls to Trust Service Criteria, and reduces audit busywork.
-- **[Vulnerability Triage](skills/vulnerability-triage/SKILL.md)** — Triages and prioritizes vulnerability findings by real-world exploitability and business impact, cutting through scanner noise.
-- **[Secure Code Review](skills/secure-code-review/SKILL.md)** — Reviews code for high-impact security flaws including broken authorization, injection, SSRF, and unsafe deserialization.
-- **[Security Audit](aouellets)** — Reviews code for OWASP Top 10 vulnerabilities with concrete fix recommendations. _(external — see source)_
-- **[PII Scrubber](skills/pii-scrubber/SKILL.md)** — Detects and redacts 18 categories of PII from text, logs, and structured data.
+- **[Threat Model STRIDE](skills/threat-model-stride/SKILL.md)** — Applies STRIDE threat modeling to a feature or system design and produces a prioritized threat table with concrete mitigations ranked by exploitability and impact.
+- **[Dependency Risk Audit](skills/dependency-risk-audit/SKILL.md)** — Audits third-party dependencies for exploitable CVEs, abandonment, license exposure, and supply-chain hygiene, and delivers a ranked findings report with a remediation order.
+- **[Secrets Hygiene](skills/secrets-hygiene/SKILL.md)** — Guides detection, emergency rotation, and prevention of leaked secrets and credentials across source code, git history, CI pipelines, logs, and infrastructure config.
+- **[SOC 2 Evidence Helper](skills/soc2-evidence-helper/SKILL.md)** — Maps engineering controls to SOC 2 Trust Service Criteria, builds a continuous evidence-collection plan with cadences per control family, and produces the control-to-evidence table auditors work from.
+- **[Vulnerability Triage](skills/vulnerability-triage/SKILL.md)** — Prioritizes vulnerability findings from scanners, pentest reports, and bug bounty submissions by real-world exploitability rather than raw CVSS, assigning internal severity tiers with fix SLAs.
+- **[Secure Code Review](skills/secure-code-review/SKILL.md)** — Reviews code for the security flaw classes that cause the most breaches — broken authorization and IDOR, injection, SSRF, mass assignment, and unsafe deserialization — and returns a short, focused findings list with concrete fixes.
+- **[Security Audit](https://skillme.dev/skill/security-audit)** — Reviews code for OWASP Top 10 vulnerabilities with concrete fix recommendations. _(external — see source)_
+- **[PII Scrubber](skills/pii-scrubber/SKILL.md)** — Detects and redacts personally identifiable information from text, logs, datasets, and LLM prompts using layered pattern, checksum, and NER detection, then picks the right redaction mode for each downstream use.
 
 ## License
 
